@@ -1,0 +1,31 @@
+{
+  "name": "twitter-menfess-bot",
+  "version": "1.0.0",
+  "description": "A twitter bot that does some tasks regarding to the Twitter API.",
+  "main": "build/app.js",
+  "scripts": {
+    "build": "npx tsc --build && tsc-alias",
+    "start": "node .",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "menfess"
+  ],
+  "author": "Hreesang",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.5",
+    "@types/twitter-autohook": "^1.7.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "tsc-alias": "^1.7.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "twitter-api-v2": "^1.12.3",
+    "twitter-autohook": "^1.7.2"
+  }
+}
